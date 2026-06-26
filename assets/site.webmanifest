@@ -1,0 +1,17 @@
+{
+  "name": "Wiem Mhedhbi Portfolio",
+  "short_name": "Wiem",
+  "description": "Portfolio de Wiem Mhedhbi, Data Scientist et AI Engineer.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

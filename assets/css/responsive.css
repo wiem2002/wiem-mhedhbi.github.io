@@ -1,0 +1,716 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+    .hero-ai-grid {
+        grid-template-columns: 1fr;
+        gap: 2.75rem;
+        padding-top: 8rem;
+        padding-bottom: 5.75rem;
+        text-align: center;
+    }
+
+    .hero-ai-copy,
+    .hero-value,
+    .hero-summary {
+        margin-inline: auto;
+    }
+
+    .hero-skill-list,
+    .hero-action-row,
+    .hero-social-list {
+        justify-content: center;
+    }
+
+    .hero-proof-list {
+        max-width: 46rem;
+        margin-inline: auto;
+    }
+
+    .hero-portrait-stage {
+        min-height: 25rem;
+    }
+
+    .hero-portrait-aura {
+        width: min(70vw, 28rem);
+    }
+
+    .career-path-shell {
+        max-width: 52rem;
+    }
+
+    .career-timeline {
+        padding-left: 4.25rem;
+    }
+
+    .career-timeline::before {
+        left: 1.45rem;
+    }
+
+    .career-timeline-node {
+        left: -2.8rem;
+    }
+
+    .contact-command-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contact-command-copy {
+        max-width: 48rem;
+    }
+
+    .about-profile-grid {
+        grid-template-columns: 1fr;
+        gap: 2.75rem;
+    }
+
+    .about-profile-copy {
+        max-width: 48rem;
+    }
+
+    .about-strengths-panel {
+        max-width: 48rem;
+    }
+
+    .case-study-grid {
+        gap: 1.15rem;
+    }
+
+    .case-study-card {
+        min-height: 34rem;
+    }
+
+    .case-study-card__body {
+        padding: 1.25rem;
+    }
+
+    .case-study-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-showcase-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .cert-card,
+    .cert-card:nth-child(4),
+    .cert-card:nth-child(5) {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-proof-grid,
+    .project-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .card-hover:hover {
+        transform: none;
+    }
+
+    /* Stats grid: 2 columns on tablet / large mobile */
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Disable heavy hover lift on touch screens */
+    .stat-card:hover {
+        transform: none;
+        box-shadow:
+            0 0 0 1px rgba(99, 102, 241, 0.2),
+            0 4px 24px -4px rgba(0, 0, 0, 0.45);
+    }
+
+    /* Skills: 2 columns on tablet */
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Disable card lift on touch */
+    .skc:hover {
+        transform: none;
+    }
+
+    .hero-ai-section {
+        min-height: auto;
+        background:
+            radial-gradient(ellipse at 50% 16%, rgba(99, 102, 241, 0.14) 0%, transparent 44%),
+            radial-gradient(ellipse at 50% 82%, rgba(6, 182, 212, 0.12) 0%, transparent 42%),
+            #020617;
+    }
+
+    .hero-ai-grid {
+        grid-template-columns: 1fr;
+        gap: 2.15rem;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .hero-ai-copy,
+    .hero-value,
+    .hero-summary {
+        margin-inline: auto;
+    }
+
+    .hero-availability {
+        justify-content: center;
+        font-size: 0.72rem;
+    }
+
+    .hero-role {
+        margin-top: 1.35rem;
+    }
+
+    .hero-title {
+        font-size: 3.05rem;
+        line-height: 1;
+    }
+
+    .hero-value {
+        font-size: 1.24rem;
+    }
+
+    .hero-summary {
+        font-size: 0.96rem;
+    }
+
+    .hero-typewriter {
+        justify-content: center;
+    }
+
+    .hero-skill-list,
+    .hero-action-row,
+    .hero-social-list {
+        justify-content: center;
+    }
+
+    .hero-action-row {
+        gap: 0.75rem;
+    }
+
+    .hero-action {
+        min-height: 3.1rem;
+    }
+
+    .hero-action:hover,
+    .hero-social-list a:hover {
+        transform: none;
+    }
+
+    .hero-proof-list {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .hero-proof-list li {
+        min-height: auto;
+    }
+
+    .hero-portrait-stage {
+        min-height: 21rem;
+    }
+
+    .hero-portrait-aura {
+        width: min(84vw, 22rem);
+    }
+
+    .hero-portrait-frame {
+        width: min(76vw, 21rem);
+    }
+
+    .hero-portrait-image {
+        width: min(58vw, 16rem);
+    }
+
+    .hero-data-node--one {
+        right: 14%;
+    }
+
+    .hero-data-node--two {
+        left: 14%;
+    }
+
+    .hero-portrait-label {
+        right: 50%;
+        bottom: 6%;
+        transform: translateX(50%);
+    }
+
+    .hero-scroll-cue {
+        bottom: 1rem;
+    }
+
+    .career-path-section {
+        background:
+            radial-gradient(ellipse at 50% 14%, rgba(34, 211, 238, 0.08) 0%, transparent 42%),
+            linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(15, 23, 42, 0.14) 52%, rgba(2, 6, 23, 0) 100%);
+    }
+
+    .career-path-header {
+        margin-bottom: 2.35rem;
+    }
+
+    .career-path-title {
+        font-size: 2.35rem;
+        line-height: 1.12;
+    }
+
+    .career-path-subtitle {
+        font-size: 0.96rem;
+    }
+
+    .career-focus-list {
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+
+    .career-timeline {
+        gap: 1.1rem;
+        padding-left: 2.95rem;
+    }
+
+    .career-timeline::before {
+        left: 1.05rem;
+        top: 0.8rem;
+        bottom: 0.8rem;
+    }
+
+    .career-timeline-node {
+        left: -1.9rem;
+        top: 1.25rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .career-timeline-node span {
+        font-size: 0.65rem;
+    }
+
+    .career-card {
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+    }
+
+    .career-card:hover {
+        transform: none;
+    }
+
+    .career-card__header {
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .career-card__title {
+        font-size: 1.1rem;
+    }
+
+    .career-card__description {
+        font-size: 0.87rem;
+    }
+
+    .career-proof-grid {
+        grid-template-columns: 1fr;
+        gap: 0.55rem;
+    }
+
+    .career-proof {
+        padding: 0.75rem;
+    }
+
+    .career-tech-list {
+        gap: 0.45rem;
+    }
+
+    .contact-command-section {
+        background:
+            radial-gradient(ellipse at 50% 14%, rgba(99, 102, 241, 0.1) 0%, transparent 42%),
+            linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(15, 23, 42, 0.14) 52%, rgba(2, 6, 23, 0) 100%);
+    }
+
+    .contact-command-shell {
+        padding: 1.35rem;
+        border-radius: 1.25rem;
+    }
+
+    .contact-command-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .contact-command-title {
+        font-size: 2.35rem;
+        line-height: 1.12;
+    }
+
+    .contact-command-subtitle {
+        font-size: 0.96rem;
+    }
+
+    .contact-trust-list {
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+
+    .contact-primary-action,
+    .contact-secondary-action {
+        min-height: 3rem;
+    }
+
+    .contact-primary-action:hover,
+    .contact-secondary-action:hover,
+    .contact-method-card:hover,
+    .contact-social-list a:hover {
+        transform: none;
+    }
+
+    .contact-social-list {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-showcase-section {
+        background:
+            radial-gradient(ellipse at 50% 14%, rgba(99, 102, 241, 0.09) 0%, transparent 42%),
+            linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(15, 23, 42, 0.12) 52%, rgba(2, 6, 23, 0) 100%);
+    }
+
+    .projects-showcase-header {
+        margin-bottom: 2.25rem;
+    }
+
+    .projects-showcase-subtitle {
+        font-size: 0.94rem;
+    }
+
+    .project-focus-list {
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+
+    .case-study-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .case-study-card {
+        min-height: auto;
+    }
+
+    .case-study-card:hover {
+        transform: none;
+    }
+
+    .case-study-card__visual {
+        min-height: 10.5rem;
+    }
+
+    .case-study-card__body {
+        padding: 1.2rem;
+    }
+
+    .case-study-card__title {
+        font-size: 1.08rem;
+    }
+
+    .case-study-card__description {
+        font-size: 0.84rem;
+    }
+
+    .case-study-meta {
+        grid-template-columns: 1fr;
+        gap: 0.55rem;
+    }
+
+    .case-study-action:hover {
+        transform: none;
+    }
+
+    .about-profile-section {
+        background:
+            radial-gradient(ellipse at 50% 14%, rgba(99, 102, 241, 0.1) 0%, transparent 42%),
+            linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(15, 23, 42, 0.14) 52%, rgba(2, 6, 23, 0) 100%);
+    }
+
+    .about-profile-grid {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+    }
+
+    .about-profile-title {
+        font-size: 2.35rem;
+        line-height: 1.12;
+    }
+
+    .about-profile-subtitle,
+    .about-profile-text p {
+        font-size: 0.96rem;
+    }
+
+    .about-chip-list {
+        gap: 0.5rem;
+        margin-top: 1.35rem;
+    }
+
+    .about-identity-grid {
+        grid-template-columns: 1fr;
+        gap: 0.85rem;
+        margin-top: 1.5rem;
+    }
+
+    .about-identity-card:hover,
+    .about-strengths-panel:hover {
+        transform: none;
+    }
+
+    .about-strengths-panel {
+        padding: 1.35rem;
+        border-radius: 1.25rem;
+    }
+
+    .about-strengths-panel__header {
+        gap: 1rem;
+    }
+
+    .about-strengths-panel h3 {
+        font-size: 1.22rem;
+    }
+
+    .about-strength-list {
+        gap: 1rem;
+    }
+
+    .certifications-section {
+        background:
+            radial-gradient(ellipse at 50% 14%, rgba(16, 185, 129, 0.08) 0%, transparent 42%),
+            linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, rgba(15, 23, 42, 0.14) 52%, rgba(2, 6, 23, 0) 100%);
+    }
+
+    .certifications-header {
+        margin-bottom: 2.25rem;
+    }
+
+    .certifications-subtitle {
+        font-size: 0.94rem;
+    }
+
+    .cert-focus-list {
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+
+    .cert-showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .cert-card,
+    .cert-card:nth-child(4),
+    .cert-card:nth-child(5) {
+        grid-column: auto;
+        min-height: auto;
+        padding: 1.25rem;
+    }
+
+    .cert-card:hover {
+        transform: none;
+    }
+
+    .cert-card__top {
+        align-items: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .cert-card__title {
+        font-size: 1.04rem;
+    }
+
+    .cert-card__description {
+        font-size: 0.84rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .recruiter-chip {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Stats grid: 1 column on very small screens */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Skills: 1 column on very small screens */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-eyebrow {
+        padding-inline: 0.85rem;
+    }
+
+    .project-eyebrow {
+        padding-inline: 0.85rem;
+    }
+
+    .contact-eyebrow {
+        padding-inline: 0.85rem;
+    }
+
+    .hero-availability {
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .hero-title {
+        font-size: 2.65rem;
+    }
+
+    .hero-action-row {
+        flex-direction: column;
+    }
+
+    .hero-action {
+        width: 100%;
+    }
+
+    .hero-skill-list li {
+        font-size: 0.76rem;
+        padding-inline: 0.68rem;
+    }
+
+    .hero-portrait-stage {
+        min-height: 18.5rem;
+    }
+
+    .hero-portrait-frame {
+        width: min(78vw, 18rem);
+    }
+
+    .hero-portrait-image {
+        width: min(59vw, 13.75rem);
+    }
+
+    .hero-data-node {
+        width: 0.58rem;
+        height: 0.58rem;
+    }
+
+    .career-eyebrow {
+        padding-inline: 0.85rem;
+    }
+
+    .career-path-title {
+        font-size: 2.05rem;
+    }
+
+    .career-focus-list {
+        justify-content: flex-start;
+    }
+
+    .career-card__header {
+        flex-wrap: wrap;
+    }
+
+    .career-card__icon {
+        width: 2.35rem;
+        height: 2.35rem;
+        border-radius: 0.8rem;
+    }
+
+    .career-card__date {
+        font-size: 0.7rem;
+    }
+
+    .career-proof span:last-child,
+    .career-tech-list li {
+        font-size: 0.74rem;
+    }
+
+    .contact-command-title {
+        font-size: 2.05rem;
+    }
+
+    .contact-action-row {
+        flex-direction: column;
+    }
+
+    .contact-primary-action,
+    .contact-secondary-action {
+        width: 100%;
+    }
+
+    .contact-direct-panel {
+        padding: 1rem;
+    }
+
+    .contact-direct-panel__header {
+        align-items: flex-start;
+    }
+
+    .contact-method-card {
+        grid-template-columns: auto minmax(0, 1fr);
+    }
+
+    .contact-method-card__arrow {
+        display: none;
+    }
+
+    .project-focus-list {
+        justify-content: flex-start;
+    }
+
+    .case-study-card__visual {
+        min-height: 9.5rem;
+    }
+
+    .case-study-card__visual > i {
+        font-size: 2.8rem;
+    }
+
+    .case-study-tags li {
+        font-size: 0.68rem;
+    }
+
+    .case-study-tech {
+        gap: 0.35rem 0.55rem;
+    }
+
+    .about-profile-title {
+        font-size: 2.05rem;
+    }
+
+    .about-chip-list {
+        justify-content: flex-start;
+    }
+
+    .about-strength-item__top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.55rem;
+    }
+
+    .about-strength-item__value {
+        min-height: 1.55rem;
+    }
+
+    .cert-eyebrow {
+        padding-inline: 0.85rem;
+    }
+
+    .cert-focus-list {
+        justify-content: flex-start;
+    }
+
+    .cert-card__top {
+        flex-wrap: wrap;
+    }
+
+    .cert-card__date {
+        margin-left: auto;
+    }
+
+    .cert-card__topics span {
+        font-size: 0.7rem;
+    }
+}
